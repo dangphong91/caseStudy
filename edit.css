@@ -1,0 +1,106 @@
+*, *::after, *::before{
+    margin:0px;
+    padding:0px;
+}
+body {
+    background-image: url("images/background.jpg");
+    background-attachment: fixed;
+}
+img {
+    width: 188px;
+    height: 280px;
+}
+table {
+    text-align: center;
+}
+thead {
+    text-align: left;
+}
+button {
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(25, 214, 18);
+    border: none;
+    height: 30px;
+}
+input {
+    color: rgb(25, 214, 18);
+    width: 350px;
+    height: 28px;
+    margin-right: 0px;
+    font-size: 18px;
+}
+.head {
+    background-image: url("images/head.jpg");
+    overflow: hidden;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    background-color: teal;
+    border: none;
+}
+.select {
+    border-top: solid red 2px;
+    width: 1000px;
+    margin-top: 45px;
+    text-align: center;
+    padding: 5px;
+    background-color: rgba(128, 128, 128, 0.726);
+}
+select {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border: solid grey 0.1px;
+    padding: 5.5px;
+    margin: 0px;
+    color: rgb(25, 214, 18);
+}
+.head>button {
+    font-style: italic;
+    color: rgb(6, 196, 170);
+}
+.select>button {
+    border: solid grey 0.1px;
+    padding: 5px;
+}
+th {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(255, 94, 0);
+    padding-top: 5px;
+}
+div {
+    background-color: rgba(255, 255, 255, 0.712);
+    padding:0px 5px;;
+    width: 1000px;
+    margin: auto;
+    border-left: red solid 1px;
+    border-right: red solid 1px;
+}
+.depute {
+    font-size: 18px;
+    padding-top: 10px;
+    color: rgb(102, 5, 37);
+    font-style: italic;
+    font-weight: bold;
+}
+.update {
+    padding-top: 10px;
+    text-align: left;
+}
+.update img {
+    width: 150px;
+    height: 200px;
+}
+.update td {
+    padding: 5px;
+    width: 150px;
+    vertical-align: top;
+    font-style: italic;
+    font-weight: bold;
+}
+td {
+    padding: 5px;
+}
