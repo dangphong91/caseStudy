@@ -152,7 +152,7 @@ h2 {
     width: 150px;
     height: 200px;
 }
-.column img:hover {
+.column td:hover img {
     border-radius: 15px;
     transition-duration: 2s;
     transform: scale(1.2);
