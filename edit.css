@@ -23,7 +23,7 @@ button:hover {
 }
 input {
     color: rgb(25, 214, 18);
-    width: 350px;
+    width: 25%;
     height: 28px;
     margin-right: 0px;
     font-size: 18px;
@@ -33,6 +33,7 @@ input {
     position: fixed;
     top: 0px;
     width: 100%;
+    height: 36px;
     text-align: center;
     padding: 4px;
     background-image: url("images/header.png");
@@ -88,29 +89,32 @@ a {
 .depute {
     border-left: solid red 1px;
     border-right: solid red 1px;
-    color: rgb(102, 5, 37);
     font-style: italic;
     font-weight: bold;
 }
-.depute td {
-    border-radius: 7px;
-    overflow: hidden;
+.columnDepute {
+    padding: 0px;
+    margin: 10px;
+    background-color: rgba(255, 248, 220, 0);
+    border: none;
+    float: left;
+    width: 18%;
 }
-.depute img {
+.columnDepute img {
     transition-duration: 1s;
     border-radius: 10px;
     width: 180px;
     height: 250px;
 }
-.depute p {
-    transition-duration: 4s;
+.columnDepute p {
+    transition-duration: 5s;
 }
-.depute td:hover img {
+.columnDepute:hover img {
     transition-duration: 2s;
     transform: scale(1.2);
     cursor: pointer; 
 }
-.depute td:hover p {
+.columnDepute:hover p {
     transition-duration: 1s;
     color: rgba(255, 248, 220, 0);
 }
@@ -153,6 +157,13 @@ h2 {
     transition-duration: 2s;
     transform: scale(1.2);
     cursor: pointer; 
+}
+.column p {
+    transition-duration: 4s;
+}
+.column td:hover p {
+    transition-duration: 1s;
+    color: rgba(255, 248, 220, 0);
 }
 .column td {
     width: 160px;
@@ -254,5 +265,8 @@ h2 {
 @media screen and (max-width: 600px) {
     .column {
       width: 100%;
+    }
+    .columnDepute {
+        width: 100%;
     }
   }

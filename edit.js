@@ -1,5 +1,5 @@
 function sms() {
-    alert("Vui lòng Đăng nhập để xem thông báo !");
+    alert("Hiện chưa có thông báo mới !");
 }
 class Manga {
     constructor(name, chapter, image, url) {
@@ -20,7 +20,7 @@ function showManga() {
     let tbManga = document.getElementById("depute");
     tbManga.innerHTML = "";
     manga.forEach(function(item) {
-        tbManga.innerHTML += `<td><a href=${item.url}><img src=${item.image}><br><p>${item.name}</p><p>Chapter:${item.chapter}</p></a></td>`;
+        tbManga.innerHTML += `<div class='columnDepute'><a href=${item.url}><img src=${item.image}><p>${item.name}</p><p>Chapter:${item.chapter}</p></a></div>`;
     });
 }
 showManga();
@@ -43,7 +43,7 @@ function showMangaUp1() {
     tbMangaUp1.innerHTML = "";
     mangaUp1.forEach(function(item) {
         tbMangaUp1.innerHTML += `<tr>
-                                <td><a href=${item.url}><img src=${item.image}><br>${item.name}<br>Chapter:${item.chapter}</a></td>
+                                <td><a href=${item.url}><img src=${item.image}><p>${item.name}</p><p>Chapter:${item.chapter}</p></a></td>
                                 </tr>`;
     });
 }
@@ -67,7 +67,7 @@ function showMangaUp2() {
     tbMangaUp2.innerHTML = "";
     mangaUp2.forEach(function(item) {
         tbMangaUp2.innerHTML += `<tr>
-                                <td><a href=${item.url}><img src=${item.image}><br>${item.name}<br>Chapter:${item.chapter}</a></td>
+                                <td><a href=${item.url}><img src=${item.image}><p>${item.name}</p><p>Chapter:${item.chapter}</p></a></td>
                                 </tr>`;
     });
 }
@@ -91,7 +91,7 @@ function showMangaUp3() {
     tbMangaUp3.innerHTML = "";
     mangaUp3.forEach(function(item) {
         tbMangaUp3.innerHTML += `<tr>
-                                <td><a href=${item.url}><img src=${item.image}><br>${item.name}<br>Chapter:${item.chapter}</a></td>
+                                <td><a href=${item.url}><img src=${item.image}><p>${item.name}</p><p>Chapter:${item.chapter}</p></a></td>
                                 </tr>`;
     });
 }
@@ -112,7 +112,7 @@ function showMangaUp4() {
     tbMangaUp4.innerHTML = "";
     mangaUp4.forEach(function(item) {
         tbMangaUp4.innerHTML += `<tr>
-                                <td><a href=${item.url}><img src=${item.image}><br>${item.name}<br>Chapter:${item.chapter}</a></td>
+                                <td><a href=${item.url}><img src=${item.image}><p>${item.name}</p><p>Chapter:${item.chapter}</p></a></td>
                                 </tr>`;
     });
 }
