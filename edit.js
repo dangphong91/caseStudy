@@ -140,17 +140,17 @@ class MemberComment {
         this.comment = comment;
     }
 }
-let duongbui = new MemberComment("Võ Luyện Đỉnh Phong", 1046, "Duong Bui", "images/anonymous.png",
+let duongbui = new MemberComment("Võ Luyện Đỉnh Phong", 1046, "Duong Bui", "images/duongbui.jpg",
 "Cái đoạn main ở bí cảnh Man tộc được gì k ae, t đọc đến đấy thì hết cmnr");
-let tranmanhtung = new MemberComment("Bổn Tế Tu Chính Là Tiện Đạo", 97, "Tran Manh Tung", "images/anonymous.png",
+let tranmanhtung = new MemberComment("Bổn Tế Tu Chính Là Tiện Đạo", 97, "Tran Manh Tung", "images/tranmanhtung.jpg",
 "Đừng nói la h main chưa chết mà có chết mà thằng này lại dám ảo tưởng con chị main để y");
-let chanstudio = new MemberComment("Nhất Kiếm Độc Tôn", 110, "Chan Studio", "images/anonymous.png",
+let chanstudio = new MemberComment("Nhất Kiếm Độc Tôn", 110, "Chan Studio", "images/chanstudio.jpg",
 "nạp vip vào ~~");
-let jackdote = new MemberComment("Tổng Tài Tại Thượng", 365, "Jack Đồ Tể", "images/anonymous.png",
+let jackdote = new MemberComment("Tổng Tài Tại Thượng", 365, "Jack Đồ Tể", "images/jackdote.jpg",
 "Bị hiểu lầm có con với tổng tài và ông nội đó đòi có đứa con :v");
-let phamvan = new MemberComment("Xuyên Không Vào Thế Giới...", 193, "Phạm Văn", "images/anonymous.png",
+let phamvan = new MemberComment("Xuyên Không Vào Thế Giới...", 193, "Phạm Văn", "images/phamvan.jpg",
 "main bị nó hiếp hay nó bị main hiếp");
-let ngaothien = new MemberComment("Ta Nhặt Được Thuộc Tính...", 31, "Ngạo Thiên", "images/anonymous.png",
+let ngaothien = new MemberComment("Ta Nhặt Được Thuộc Tính...", 31, "Ngạo Thiên", "images/ngaothien.jpg",
 "ám hiệu mật, mà nó truyền cả tông.");
 let newComment = [duongbui, tranmanhtung, chanstudio, jackdote, phamvan, ngaothien];
 function showComment() {
